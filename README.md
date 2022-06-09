@@ -1,19 +1,35 @@
-# <PROJECT_NAME>
+# Ape Aurora Ecosystem Plugin
 
-TODO: Description
+Ecosystem Plugin for Aurora support in Ape
 
 ## Dependencies
 
-* [python3](https://www.python.org/downloads) version 3.7 or greater, python3-dev
+- [python3](https://www.python.org/downloads) version 3.7 or greater, python3-dev
 
 ## Installation
+
+### via `ape`
+
+You can install this plugin using `ape`:
+
+```bash
+ape plugins install aurora
+```
+
+or via config file:
+
+```yaml
+# ape-config.yaml
+plugins:
+  - name: aurora
+```
 
 ### via `pip`
 
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-pip install <PYPI_NAME>
+pip install ape-aurora
 ```
 
 ### via `setuptools`
@@ -21,19 +37,21 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
+git clone https://github.com/albertocevallos/ape-aurora.git
+cd ape-aurora
 python3 setup.py install
 ```
 
 ## Quick Usage
 
-TODO: Describe library overview in code
+Installing this plugin adds support for the Aurora ecosystem:
+
+```bash
+ape console --network aurora:mainnet
+```
 
 ## Development
 
-This project is in development and should be considered a beta.
-Things might not be in their final state and breaking changes may occur.
 Comments, questions, criticisms and pull requests are welcomed.
 
 ## License
