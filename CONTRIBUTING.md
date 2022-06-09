@@ -4,7 +4,7 @@ To get started with working on the codebase, use the following steps prepare you
 
 ```bash
 # clone the github repo and navigate into the folder
-git clone https://github.com/ApeWorX/ape-aurora.git
+git clone https://github.com/albertocevallos/ape-aurora.git
 cd ape-aurora
 
 # create and load a virtual environment
